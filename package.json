@@ -1,0 +1,36 @@
+{
+  "name": "reddit-secret-message-bot",
+  "version": "0.0.0",
+  "description": "Looks for Reddit posts with secret messages.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "start": "node app",
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewbrooke/RedditSecretMessageBot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewbrooke/RedditSecretMessageBot/issues"
+  },
+  "dependencies": {
+    "check-word": "^1.1.0",
+    "debug": "^2.6.8",
+    "nyc": "^11.0.3",
+    "snoostorm": "0.0.5",
+    "snoowrap": "^1.14.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "dotenv": "^4.0.0",
+    "eslint": "^4.1.1",
+    "eslint-config-google": "^0.8.0",
+    "mocha": "^3.4.2",
+    "nodemon": "^1.11.0"
+  },
+  "homepage": "https://github.com/andrewbrooke/RedditSecretMessageBot#readme"
+}
